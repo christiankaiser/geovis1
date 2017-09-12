@@ -57,7 +57,7 @@ Semaine  | Date  | Cours | Atelier | Salle (à Géopolis)
 12       | 6.12.  | - | Travail sur le projet individuel | A:2113
 13       | 13.12. | - | Travail sur le projet individuel | A:2113
 14       | 20.12. | __Rendu du projet individuel__
-Si deux salles sont indiquées, la première réfère à la première partie du cours (C:...), tandis que la deuxième salle correspond à l'atelier pratique en deuxième partie (A:...).## 7. Références
+Si deux salles sont indiquées, la première réfère à la première partie du cours (C:...), tandis que la deuxième salle correspond à l'atelier pratique en deuxième partie (A:...).## 8. Références
 - Andrienko, G., Andrienko, N., Demsar, U., Dransch, D., Dykes, J., Fabrikant, S. I., Jern, M., Kraak, M.-J., Schumann, H. and Tominski, C. (2010). Space, Time, and Visual Analytics, International Journal of Geographical Information Science, 24(10), pp. 1577–1600. doi:10.1080/13658816.2010.508043
 - Bertin, J. 1977. La graphique et le traitement graphique de l'information. Flammarion, Paris, France.
 - Chaomei C. (2003). Visualizing Scientific Paradigms: An Introduction, Journal of the American Society for Information Science and Technology, 54(5), pp. 392–393. doi:10.1002/asi.10224
