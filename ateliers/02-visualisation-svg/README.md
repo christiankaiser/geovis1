@@ -1,4 +1,4 @@
-# Atelier 1: Visualisation SVG
+# Atelier 2: Visualisation SVG
 
 *par Lucas Martinez et Christian Kaiser*
 
