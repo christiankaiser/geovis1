@@ -47,9 +47,9 @@ Semaine  | Date  | Cours | Atelier | Salle (à Géopolis)
 2        | 27.9.  | Techniques de représentation cartographique | Visualisation SVG | C:2207<br>A:2113
 3        | 4.10.  | WebMapping: concepts de base  | Cartographie interactive avec Leaflet (1/3) | C:2121<br>A:2113
 4        | 11.10. | Représentation de données et formes visuelles: du statique au dynamique | HTML + CSS | C:2238<br>A:2113
-5        | 18.10. | Représentation graphique et analyse visuelle | Javascript | C:TBA<br>A:2113
-6        | 25.10. | Human Computer Interaction | Cartographie interactive avec Leaflet (2/3)  | C:TBA<br>A:2113
-7        | 1.11.  | Gestion de projets de géovisualisation | Cartographie interactive avec Leaflet (3/3) | C:TBA<br>A:2113
+5        | 18.10. | Représentation graphique et analyse visuelle | Javascript | C:2238<br>A:2113
+6        | 25.10. | Human Computer Interaction | Cartographie interactive avec Leaflet (2/3)  | C:2238<br>A:2113
+7        | 1.11.  | Gestion de projets de géovisualisation | Cartographie interactive avec Leaflet (3/3) | C:2238<br>A:2113
 8        | 8.11.  | Cartographie collaborative | Édition de données OSM et création de fonds de cartes personnalisés | C:TBA<br>A:2113
 9        | 15.11. | Géoportails, infrastructures de données spatiales et standards ouverts | __Démarrage du projet individuel__ | C:TBA<br>A:2113
 10       | 22.11. | Réserve | Travail sur le projet individuel | A:2113
