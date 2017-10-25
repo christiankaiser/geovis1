@@ -3,18 +3,18 @@
 <head>
  	<meta charset="utf-8" />
  	<title>Ma première carte interactive</title>
- 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
- 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
 </head>
 <body>
 	<h1>Ma carte interactive ou quelque chose de plus intelligent</h1>
  	<div id="map" style="width: 600px; height: 450px;"></div>
  	<script type="text/javascript">
   var map = new L.Map('map', {
-		center: [47, 8], 
+		center: [47, 8],
 		maxBounds: [[46, 6], [48,10]],
-		minZoom: 4, 
-		maxZoom: 8,	
+		minZoom: 4,
+		maxZoom: 8,
 		zoom: 6
 	});
 
