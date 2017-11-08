@@ -2,8 +2,6 @@ Concepts de base en géovisualisation
 
 # Projet individuel
 
-
-
 ## 1. Objectif
 
 Le but du projet individuel est de créer une application simple de cartographie interactive permettant soit de communiquer sur un sujet de votre choix, soit d'explorer un jeu de données en vue dans le cadre d'un problème d'aide à la décision. Vous devez également créer une documentation comprenant une justification de vos choix.
@@ -52,17 +50,27 @@ Veuillez envoyer le rapport du projet en format PDF par e-mail à Christian.Kais
 
 Vous devez déposer votre application sur le serveur Web de Géovis, afin d'avoir une URL valable (l'URL doit commencer avec http://<--encore à définir-->/). Pour déposer votre projet sur ce serveur, vous devez utiliser un logiciel SFTP, tel que Cyberduck ([cyberduck.io](https://cyberduck.io/), pour Mac et Windows), ou WinSCP (pour Windows). Ensuite connectez-vous au serveur en utilisant les paramètres suivants:
 
-| URL:               | <-- encore à définir -->                 |
+| URL:               | igd-bld05.unil.ch                 |
 | -------------------|----------------------------------------- |
 | Protocole:         | SFTP ou SSH                              |
 | Port:              | 22 (si ce n'est pas 22, votre protocole est probablement faux) |
-| Nom d'utilisateur: | geovis                                   |
-| Mot de passe:      | Lambert2017                              |
+| Nom d'utilisateur: | _communiqué dans le cours_                                   |
+| Mot de passe:      | _communiqué dans le cours_                              |
 
-Une fois connecté, vous y trouverez un dossier **www** que vous ouvrez. À l'intérieur de ce dossier, créez un dossier qui a comme nom votre nom d'utilisateur UNIL. C'est à l'intérieur de ce dossier que vous allez déposer l'ensemble de vos fichiers. Veillez à ce que votre fichier de départ s'appelle index.html et qu'il se trouve directement dans le dossier avec votre nom (et non pas dans un sous-dossier).
+___Attention.___ La connexion fonctionne uniquement si:
+
+- vous êtes physiquement à l'UNIL, ou
+- vous êtes connecté au réseau de l'UNIL avec Pulse Secure (voir sur [crypto.unil.ch](https://crypto.unil.ch)), ou
+- vous vous êtes authentifié au préalable sur [reseau.unil.ch](https://reseau.unil.ch).
+
+Une fois connecté, vous y trouverez un dossier **www** que vous ouvrez. À l'intérieur de ce dossier, créez un dossier qui a comme nom votre nom d'utilisateur UNIL. C'est à l'intérieur de ce dossier que vous allez déposer l'ensemble de vos fichiers. Veillez à ce que votre fichier de départ s'appelle index.html et qu'il se trouve directement dans le dossier avec votre nom (et non pas dans un sous-dossier). La structure des dossiers sera donc quelque chose comme:
+
+![](structure-www.png)
+
+__Attention!__ Tous les dossiers dont le nom ne correspond pas à un nom d'utilisateur UNIL seront supprimés périodiquement par un script automatisé. Ainsi, soumettre un dossier avec un nom différent de votre nom d'utilisateur UNIL est équivalent à ne pas déposer votre projet!!!
 
 En plus, assurez-vous de ne pas utiliser de caractères spéciaux, des espaces etc. dans l'ensemble des noms de fichiers et dossiers, mais uniquement des caractères minuscules, des chiffres, des tirets et des tirets-bas («underscore»).
 
-Vous pourrez alors accéder à votre projet avec l'URL [http://<--encore-à-définir-->/geovis/{{votre_dossier}}](http://<--encore-à-définir-->/geovis/{{votre_dossier}}).
+Vous pourrez alors accéder à votre projet avec l'URL [http://igd-bld05.unil.ch/{{votre_nom_utilisateur}}](http://igd-bld05.unil.ch/{{votre_nom_utilisateur}}). Cette URL fonctionne uniquement à l'intérieur de l'UNIL (mêmes conditions que pour la connexion SFTP).
 
 Gardez également une copie de votre projet sur votre ordinateur (qui est bien évidemment sauvegardé au moins une fois par jour).
