@@ -51,8 +51,8 @@ Semaine  | Date  | Cours | Atelier | Salle (à Géopolis)
 6        | 25.10. | Représentation graphique et analyse visuelle | Cartographie interactive avec Leaflet (2/3)  | C:2238<br>A:2113
 7        | 1.11.  | Human Computer Interaction | Travail individuel | C:2238<br>A:2113
 8        | 8.11.  | - | Cartographie interactive avec Leaflet (3/3) <br> __Démarrage du projet individuel__ | A:2113
-9        | 15.11. | Cartographie collaborative | Édition de données OSM et création de fonds de cartes personnalisés | C:TBA<br>A:2113
-10       | 22.11. | Gestion de projets de géovisualisation | Travail sur le projet individuel | A:2113
+9        | 15.11. | Cartographie collaborative | Édition de données OSM et création de fonds de cartes personnalisés | C.2113<br>A:2113
+10       | 22.11. | Gestion de projets de géovisualisation | Travail sur le projet individuel | C:2113<br>A:2113
 11       | 29.11. | - | Travail sur le projet individuel | A:2113
 12       | 6.12.  | - | Travail sur le projet individuel | A:2113
 13       | 13.12. | - | Travail sur le projet individuel | A:2113
