@@ -30,7 +30,7 @@ Lorsque vous passez en *mode édition* vous remarquez que le fond de carte dispa
 
 La *Figure 1.1* illustre une erreur sur la place d'un petit village du pied du Jura: lorsque l'on passe le curseur dessus, le fond *OSM* y indique la présence d'un parking. Cependant, la place a récemment bénéficié d'un remaniement urbanistique de pointe par l'implentation de bancs publics en lieu et place de l'ancien parking. De plus, la boîte aux lettres communale a également été déplacée sur cette même place.
 
-![Alt Text](AT6.1_OSM1.PNG "Capture OSM1" )
+![Alt Text](AT6.1_OSM1.png "Capture OSM1" )
 *Figure 1.1 : Illustration d'une zone nécessitant une mise à jour*
 
 Il s'agit donc de mettre à jour les données de cette zone selon les 3 aspects suivants:
