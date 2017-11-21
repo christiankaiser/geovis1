@@ -30,7 +30,7 @@ Lorsque vous passez en *mode édition* vous remarquez que le fond de carte dispa
 
 La *Figure 1.1* illustre une erreur sur la place d'un petit village du pied du Jura: lorsque l'on passe le curseur dessus, le fond *OSM* y indique la présence d'un parking. Cependant, la place a récemment bénéficié d'un remaniement urbanistique de pointe par l'implentation de bancs publics en lieu et place de l'ancien parking. De plus, la boîte aux lettres communale a également été déplacée sur cette même place.
 
-![Alt Text](AT6.1_OSM1.PNG "Capture OSM1" )
+![Alt Text](AT6.1_OSM1.png "Capture OSM1" )
 *Figure 1.1 : Illustration d'une zone nécessitant une mise à jour*
 
 Il s'agit donc de mettre à jour les données de cette zone selon les 3 aspects suivants:
@@ -45,7 +45,7 @@ Pour mettre à jour cette donnée, il faut **sélectionner** le polygone délimi
 
 Dans ce cas précis, l'élément *rue piétonne* est celui qui semble le plus approprié. Le bouton d'information **i** situé sur la droite donne des informations sur le type de polygone. La *Figure 1.2* illustre des métadonnées qu'il est possible de compléter selon nos connaissances du terrain. (*p.ex* on sait qu'il s'agit dans ce cas de la place du village, qu'elle est désormais pavée et qu'elle dispose d'un éclairage). Notez que toute modification peut être annulée à l'aide d'un clic sur la **flèche de retour** située dans la barre d'outils au dessus de la carte, ou à l'aide du raccourci clavier `CTRL + Z` ou `cmd + Z` selon votre système d'exploitation.
 
-![Alt Text](AT6.2_OSM2.PNG "Capture OSM2")
+![Alt Text](AT6.2_OSM2.png "Capture OSM2")
 *Figure 1.2 : Modification des attributs relatifs au polygone*
 
 
@@ -66,12 +66,12 @@ Une fois le polygone modifié, il faut cliquer sur **sauvegarder** dans la barre
 
 Il est également possible de simplement déplacer des éléments: La boîte aux lettres communale étant désormais sur la nouvelle place du village, il faut la déplacer comme illustré sur la *Figure 1.3*. Pour cela, il suffit de sélectionner l'élément et de le déplacer à l'endroit voulu.
 
-![Alt Text](AT6.3_OSM3.PNG "Capture OSM3")
+![Alt Text](AT6.3_OSM3.png "Capture OSM3")
 *Figure 1.3 : Point à déplacer sur la carte*
 
 A nouveau, il faut sauvegarder la modification et la commenter. Les modifications sont désormais visibles sur les cartes *OSM*, comme le montre la *Figure 1.4* sur la place du village nouvellement ajoutée. On observe que la boîte aux lettres se situe sur la *place du village*, nommée ainsi à la suite de la modification.
 
-![Alt Text](AT6.4_OSM4.PNG "Capture OSM4")
+![Alt Text](AT6.4_OSM4.png "Capture OSM4")
 *Figure 1.4 : Illustration du fond OSM désormais mis à jour*
 
 ##### 1.2.5 Nouveaux éléments
@@ -110,7 +110,7 @@ Cette partie passe en revue les fonctions basiques que vous devez connaître pou
 
 L'*éditeur de style* de **Mapbox Studio** constitue une série de règles relative à la manière dont doivent être dessinées et symbolisées les couches comprises dans le fond de carte. La fenêtre de l'éditeur est composée de deux élélments majeurs: la carte, au centre, et la barre de gauche, qui représente les couches affichées sur cette carte, ainsi que les options de style d'une couche particulière lorsqu'elle est sélectionnée (*voir Figure 2.1*).
 
-![Alt Text](AT6.5_Mapbox1.PNG "Capture Mapbox Studio 1")
+![Alt Text](AT6.5_Mapbox1.png "Capture Mapbox Studio 1")
 *Figure 2.1: Fenêtre de base du style editor de* ***Mapbox Studio***
 
 A l'instar d'un logiciel *SIG* classique, il est possible d'effectuer des manipulations de base sur ces couches au sein de la barre latérale:
@@ -125,7 +125,7 @@ Vous pouvez commencer par éditer quelques uns de ces paramètres pour prendre e
 
 Lors de votre navigation au sein de cette carte, vous avez probablement remarqué que le contenu de la carte varie en fonction du niveau de zoom, un aspect fondamental du tri et de la simplification de l'information en fonction de l'échelle géographique. Vous connaissez ce principe depuis longtemps si vous êtes des utilisateurs de *Google Maps*, par exemple. L'avantage de **Mapbox Studio** est de pouvoir personnaliser les apparences des différentes couches pour différents niveaux de zoom selon nos envies. La *Figure 2.1* illustre la gestion de l'épaisseur des routes principales en fonction du zoom (couche *road_major*, paramètre *width*).
 
-![Alt Text](AT6.6_Mapbox2.PNG "Capture Mapbox Studio 2")
+![Alt Text](AT6.6_Mapbox2.png "Capture Mapbox Studio 2")
 *Figure 2.2: Fenête de l'édition des couches en fonction des niveaux de zoom*
 
 - Les valeurs de **Zoom min et max** (ici respectivement *6* et *20*) indiquent l'intervalle dans lequel la couche varie. En dessous du *zoom minimum* la couche n'est pas visible et une fois le **zoom maximum** atteint la couche n'évolue plus (Les niveaux de zoom variant entre 0 et 22)
@@ -141,7 +141,7 @@ Il se peut que certaines couches contiennent trop d'informations par rapport à 
 
 Pour ce faire, zoomez sur le campus et sélectionnez la couche des bâtiments (*building*). Allez dans l'onglet **select data**: votre couche est alors mise en avant par rapport au reste de la carte. Pour effectuer le tri, cliquez sur **Add filter** au bas de la fenêtre puis sélectionnez l'attribut **type** et la valeur **university**. La *Figure 2.3* illustre cette démarche et le résultat qui devrait apparaître à l'écran. On remarque que les bâtiments situés au bord du lac sont devenus invisibles et que seul ceux de l'EPFL subsistent. Vérifiez que l'opérateur de choix indique bien *Is any of*.
 
-![Alt Text](AT6.7_Mapbox3.PNG "Capture Mapbox Studio 2")
+![Alt Text](AT6.7_Mapbox3.png "Capture Mapbox Studio 2")
 *Figure 2.3: Ajout d'un tri pour n'afficher que les bâtiments de type universitaires sur la couche des bâtiments*
 
 Notons qu'il est possible d'ajouter plusieurs valeurs d'attributs en cliquant sur **Add new filter value**. L'opérateur peut également être choisi de 4 manières différentes:
@@ -156,7 +156,7 @@ Bien que **Mapbox Studio** dispose de nombreuses couches de base, il peut être 
 
 Pour commencer, il faut cliquer sur **New layer** en haut de la barre latérale puis **No tileset** dans l'onglet *Source*. Cliquez ensuite sur **New tileset** dans les menus qui apparaissent ensuite. Dans la fenêtre qui s'ouvre, cliquez sur **Select a file** et allez chercher sur votre ordinateur le fichier **chemins.unil.geojson** après l'avoir téléchargé sur *Moodle* puis cliquez sur **Upload**. Notons qu'il est également possible d'uploader des fichiers *shapefile* sous forme de *dossier compressé*. Une fois le chargement de la couche terminé, cliquez dessus. Dans la nouvelle fenêtre, vous devriez reconnaître les chemins dans l'aperçu. Cliquez sur **Add to style** et sélectionnez votre style précédemment édité (*Basic* si vous ne l'avez pas renommé). La *Figure 2.4* résume ces manoeuvres.
 
-![Alt Text](AT6.8_Mapbox4.PNG "Capture Mapbox Studio 2")
+![Alt Text](AT6.8_Mapbox4.png "Capture Mapbox Studio 2")
 *Figure 2.4: Fenêtres liées à l'ajout d'une couche vecteur sur le fond de carte*
 
 Vous voyez s'afficher votre nouvelle couche sur votre carte. Cliquez sur **create layer** pour valider votre choix. La couche apparaît maintenant au dessus des autres dans la liste et il est désormais l'éditer comme l'ensemble des autres couches de **Mapbox Studio** (*p.ex* en ajustant la taille des chemins en fonction du zoom).
@@ -167,7 +167,7 @@ Vous voyez s'afficher votre nouvelle couche sur votre carte. Cliquez sur **creat
 
 Une fois l'édition de notre fond de carte terminée, nous allons la sauvegarder pour l'incorporer à notre carte interactive. Il faut commencer par cliquer sur **Publish** en haut de la barre latérale puis à nouveau sur **Publish** dans la fenêtre suivante (qui permet de comparer la couche avant l'édition et après). A ce moment, choisissez **Preview, develop and use**. Une nouvelle page s'ouvre: pour choisir d'afficher la carte avec **Leaflet**, cherchez le second menu **Develop with this style** puis sélectionnez **Leaflet**. La partie surlignée en jaune sur la *Figure 2.5* correspond au lien qu'il vous faudra copier dans votre code *javascript* pour afficher votre fond de carte nouvellement créé.
 
-![Alt Text](AT6.9_Mapbox5.PNG "Capture Mapbox Studio 2")
+![Alt Text](AT6.9_Mapbox5.png "Capture Mapbox Studio 2")
 *Figure 2.5: Fenêtres liées à l'ajout d'une couche vecteur sur le fond de carte*
 
 Cliquez sur le bouton situé en haut à droite du lien en question pour le copier dans le presse-papier, puis retournez sur votre éditeur de texte et ouvrez votre *script.js* du dernier atelier.
