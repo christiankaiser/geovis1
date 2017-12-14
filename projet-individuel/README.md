@@ -48,7 +48,7 @@ Indiquez également l'URL du projet (voir sous rendu comment obtenir une URL pou
 
 Veuillez envoyer le rapport du projet en format PDF par e-mail à Christian.Kaiser@unil.ch. Le __délai de rendu__ est le __20.12.2017__. À partir du 22.01.2018, une pénalité de retard d'une demie note par jour est appliquée. 
 
-Vous devez déposer votre application sur le serveur Web de Géovis, afin d'avoir une URL valable (l'URL doit commencer avec http://<--encore à définir-->/). Pour déposer votre projet sur ce serveur, vous devez utiliser un logiciel SFTP, tel que Cyberduck ([cyberduck.io](https://cyberduck.io/), pour Mac et Windows), ou WinSCP (pour Windows). Ensuite connectez-vous au serveur en utilisant les paramètres suivants:
+Vous devez déposer votre application sur le serveur Web de Géovis, afin d'avoir une URL valable (l'URL doit commencer avec http://igd-bld05.unil.ch/). Pour déposer votre projet sur ce serveur, vous devez utiliser un logiciel SFTP, tel que Cyberduck ([cyberduck.io](https://cyberduck.io/), pour Mac et Windows), ou WinSCP (pour Windows). Ensuite connectez-vous au serveur en utilisant les paramètres suivants:
 
 | URL:               | igd-bld05.unil.ch                 |
 | -------------------|----------------------------------------- |
