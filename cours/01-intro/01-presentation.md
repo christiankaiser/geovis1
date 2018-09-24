@@ -34,9 +34,9 @@ Université de Lausanne
 		IGD, GEO-3610
 
 - Assistants:
-	- Lucien Grangier
-    - Lucas Martinez
     - Ludivine Stofer
+    - Romain Loup
+    - Raphaël Bubloz
    
 ---
 
@@ -44,22 +44,19 @@ Université de Lausanne
 
 - __Site Web__
 
-	- https://github.com/christiankaiser/geovis1
+    - Sur Moodle
     - Toutes les informations relatives au cours se trouvent sur le site Web!
 
 - __Annonces et questions__
 
-	- Sur Slack: https://geovis1.slack.com
-	- Voir syllabus pour lien d'inscription
-    - Toutes les annonces sont faites dans le canal `#annonces` sur Slack
-    - Posez vos questions dans le canal `#general`
+    - Forum sur Moodle
 
 
 ---
 
 ## Présentation du cours
 
-- Syllabus et programme: https://github.com/christiankaiser/geovis1
+- Voir syllabus et programme sur Moodle
 
 ---
 

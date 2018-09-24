@@ -1,0 +1,426 @@
+﻿{
+  "slug": "grand-tour-de-suisse-zermatt-lausanne",
+  "name": "Grand Tour de Suisse: Zermatt-Lausanne",
+  "description": "",
+  "url": "https://app.wevis.ch/chkaiser/grand-tour-de-suisse-zermatt-lausanne",
+  "items": [
+    {
+      "_id": "rNFk7GRqCNaTcXYX3",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505737135064,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "01 Zermatt",
+      "source": "http://bit.ly/2woXV9O",
+      "description": "Zermatt se trouve au pied du Cervin. Son développement est étroitement lié à ce sommet, qui est sans doute l'une des montagnes les plus célèbres au monde. Ce village de vacances sans voiture a conservé son caractère authentique et offre \nd'innombrables possibilités d'excursions.",
+      "icon_awesome": "star",
+      "icon_color": "orange-dark",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "sY5YaScZ7TtRYbvPX",
+        "file": {
+          "name": "103c661b-82c4-4173-b5b9-c21d4d9df612.JPG",
+          "type": "image/jpeg",
+          "size": 90085,
+          "original_name": "640px-3804_-_Winkelmatten_-_Matterhorn_viewed_from_Gornergratbahn.JPG"
+        },
+        "loaded": 92136,
+        "total": 92136,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/103c661b-82c4-4173-b5b9-c21d4d9df612.JPG",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/103c661b-82c4-4173-b5b9-c21d4d9df612.JPG",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/103c661b-82c4-4173-b5b9-c21d4d9df612.JPG"
+      },
+      "coordinates": [
+        46.021224192885064,
+        7.749481201171876
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "vXYCKnqmh5rjgbhkK",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505733538811,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "02 Rarogne",
+      "source": "http://bit.ly/2xsRFNT",
+      "description": "Au 16ème siècle, l’architecte Ulrich Ruffiner construit le château-église St-Romain sur l’éperon rocheux surplombant\nRarogne. Quelque 500 ans plus tard, les habitants de Rarogne inaugurent l’église troglodyte St-Michael taillée\ndans le roc. Les deux églises et la tombe du poète Rilke forment l’attraction touristique de la commune valaisanne.",
+      "icon_awesome": "eye",
+      "icon_color": "red",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "bhNrGxbHrZCDTDS7D",
+        "file": {
+          "name": "d8ae7edf-2d3a-4636-b4c9-09175864d412.jpg",
+          "type": "image/jpeg",
+          "size": 93703,
+          "original_name": "Antiga_igreja_de_Raron_e_a_nova_igreja_dentro_da_rocha_-_panoramio.jpg"
+        },
+        "loaded": 95755,
+        "total": 95755,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/d8ae7edf-2d3a-4636-b4c9-09175864d412.jpg",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/d8ae7edf-2d3a-4636-b4c9-09175864d412.jpg",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/d8ae7edf-2d3a-4636-b4c9-09175864d412.jpg"
+      },
+      "coordinates": [
+        46.30987020246568,
+        7.7997779846191415
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "w6RqWNQ8x2mxPujaN",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505733669870,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "03 Loèche",
+      "source": "http://bit.ly/2wp2HUM",
+      "description": "Loèche-Ville et Susten: deux villages, une commune, au coeur du Valais. Grâce à une moyenne de 3500 heures d'ensoleillement, on n'y récolte pas seulement du raisin qui donne du bon vin, mais il y pousse aussi des plantes très rares et on y dénombre plus de 130 espèces d'oiseaux.",
+      "icon_awesome": "eye",
+      "icon_color": "red",
+      "icon_number": "",
+      "marker_color": "#fdfffa",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "PRe5ZCsNPQNhg3QHB",
+        "file": {
+          "name": "a8913e7a-c11a-4cc3-8068-8ca2ff650eb2.jpg",
+          "type": "image/jpeg",
+          "size": 113151,
+          "original_name": "640px-Ansicht_Leuk.jpg"
+        },
+        "loaded": 115155,
+        "total": 115155,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/a8913e7a-c11a-4cc3-8068-8ca2ff650eb2.jpg",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/a8913e7a-c11a-4cc3-8068-8ca2ff650eb2.jpg",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/a8913e7a-c11a-4cc3-8068-8ca2ff650eb2.jpg"
+      },
+      "coordinates": [
+        46.31822920344198,
+        7.632708549499513
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "zzKmxBk75p2PYy3sT",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505735815871,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "04 Saint-Léonard",
+      "source": "http://bit.ly/2xaSSXR",
+      "description": "Le plus grand lac souterrain navigable d'Europe se trouve entre Sion et Sierre. La grotte du lac est accessible facilement et peut être visitée à bord d'une barque. Les guides fournissent aux visiteurs des informations sur l'histoire et la géologie du site.",
+      "icon_awesome": "eye",
+      "icon_color": "red",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "Ku2iwvbcc94DsGe5T",
+        "file": {
+          "name": "b115ded7-cab9-41b1-bdbf-3a1dc36279fd.JPG",
+          "type": "image/jpeg",
+          "size": 53353,
+          "original_name": "640px-Saint-Léonard_underground_lake_1.JPG"
+        },
+        "loaded": 55379,
+        "total": 55379,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/b115ded7-cab9-41b1-bdbf-3a1dc36279fd.JPG",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/b115ded7-cab9-41b1-bdbf-3a1dc36279fd.JPG",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/b115ded7-cab9-41b1-bdbf-3a1dc36279fd.JPG"
+      },
+      "coordinates": [
+        46.25482307810135,
+        7.4210500717163095
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "zC59DdzQxdywcMjSq",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505737143800,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "05 Sion",
+      "source": "http://bit.ly/2feUcVd",
+      "description": "Sion est le chef-lieu du canton du Valais. Nichée entre les collines de Valère et de Tourbillon, la vieille ville, dont bon nombre de bâtiments datent du Moyen Age, abrite de nombreuses curiosités, comme par exemple un des plus anciens orgues du monde encore jouables.",
+      "icon_awesome": "star",
+      "icon_color": "orange-dark",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "W4h2BC7jZte86gsYo",
+        "file": {
+          "name": "453b758e-5211-4abd-840d-457a7d3a8ba1.jpg",
+          "type": "image/jpeg",
+          "size": 294937,
+          "original_name": "sion-1587240_960_720.jpg"
+        },
+        "loaded": 296943,
+        "total": 296943,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/453b758e-5211-4abd-840d-457a7d3a8ba1.jpg",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/453b758e-5211-4abd-840d-457a7d3a8ba1.jpg",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/453b758e-5211-4abd-840d-457a7d3a8ba1.jpg"
+      },
+      "coordinates": [
+        46.22960929685018,
+        7.355947494506837
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "s6Qk4cSHgGqJn4fwy",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505736875256,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "06 Saillon",
+      "source": "https://commons.wikimedia.org/wiki/File:Saillon_08.JPG",
+      "description": "<p>Un passé fabuleux surgit dès qu'on découvre le bourg, en remontant la vallée du Rhône, entre Martigny et Sion. Un\npassé néolithique, romain, médiéval surtout avec ce donjon de mille ans d'âge, indifférent au temps qui passe.</p>\n\n<p>Saillon nous interpelle, aujourd'hui plus que jamais, par son\nauthenticité, ses vins, ses fruits, ses eaux thermales, ses\nfêtes médiévales, ses artisans, et par Farinet bien sûr, le\nbandit bien aimé, qui a ici son musée, sa passerelle et sa\nvigne \"la plus petite du monde\", travaillée sur un coup de\ncoeur par les grands de la terre.</p>",
+      "icon_awesome": "eye",
+      "icon_color": "red",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "uFvpE3R23n9Rm5usj",
+        "file": {
+          "name": "7a8efc3d-19d5-4be6-ae2b-5b1650a55f52.JPG",
+          "type": "image/jpeg",
+          "size": 88889,
+          "original_name": "Saillon_08.JPG"
+        },
+        "loaded": 90885,
+        "total": 90885,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/7a8efc3d-19d5-4be6-ae2b-5b1650a55f52.JPG",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/7a8efc3d-19d5-4be6-ae2b-5b1650a55f52.JPG",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/7a8efc3d-19d5-4be6-ae2b-5b1650a55f52.JPG"
+      },
+      "coordinates": [
+        46.17198522933694,
+        7.185873985290528
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "6L4PzpCNE6oxuqwk4",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505737111472,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "07 Martigny",
+      "source": "https://de.wikipedia.org/wiki/Martigny",
+      "description": "La Fondation Gianadda à Martigny est une institution\nculturelle aux multiples facettes, connue sur le plan\ninternational. L'offre du musée va des vestiges\narchéologiques aux collections d'art et aux concerts en\npassant par une exposition de voitures anciennes et un parc\nde sculptures.",
+      "icon_awesome": "eye",
+      "icon_color": "red",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "YF4PPoQKpJ7zqmFr3",
+        "file": {
+          "name": "58e0e381-3fca-47ff-90dc-e4ce0d434109.jpg",
+          "type": "image/jpeg",
+          "size": 304929,
+          "original_name": "GianaddaPark.jpg"
+        },
+        "loaded": 306927,
+        "total": 306927,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/58e0e381-3fca-47ff-90dc-e4ce0d434109.jpg",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/58e0e381-3fca-47ff-90dc-e4ce0d434109.jpg",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/58e0e381-3fca-47ff-90dc-e4ce0d434109.jpg"
+      },
+      "coordinates": [
+        46.104274109034286,
+        7.072792053222656
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "FrT9jMiJxSNBL2p2A",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505737308098,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "08 Saint-Maurice",
+      "source": "https://commons.wikimedia.org/wiki/File:St-Maurice-Schloss.jpg",
+      "description": "L'Abbaye de Saint-Maurice, en Valais, a été construite il y a 1'500 ans comme un sanctuaire élevé sur le tombeau du martyr Saint-Maurice. Ce lieu de pélerinage était autrefois le centre spirituel du Royaume de Bourgogne et abrite aujourd'hui un des plus grands trésors religieux d'Europe.",
+      "icon_awesome": "star",
+      "icon_color": "orange-dark",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "287Xna9YY9D55ksSr",
+        "file": {
+          "name": "c423cb1a-e6c6-41c9-8d5c-36f8a01132ab.jpg",
+          "type": "image/jpeg",
+          "size": 140083,
+          "original_name": "640px-St-Maurice-Schloss.jpg"
+        },
+        "loaded": 142093,
+        "total": 142093,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/c423cb1a-e6c6-41c9-8d5c-36f8a01132ab.jpg",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/c423cb1a-e6c6-41c9-8d5c-36f8a01132ab.jpg",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/c423cb1a-e6c6-41c9-8d5c-36f8a01132ab.jpg"
+      },
+      "coordinates": [
+        46.213813247100184,
+        7.00455665588379
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "iDfAxEZ9gLqmz7PAR",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505737411540,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "09 Montreux",
+      "source": "https://commons.wikimedia.org/wiki/File:Montreux.jpg",
+      "description": "La ville de Montreux est située dans une baie protégée sur le lac Léman, entourée de vignobles, et dans l’époustouflant décor des Alpes enneigées. Elle est notamment réputée pour le Montreux Jazz Festival qui a lieu chaque année en juin/juillet sur différentes scènes et dans les parcs de la ville.",
+      "icon_awesome": "star",
+      "icon_color": "green-light",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "qPK2iDfZGErcqtDiD",
+        "file": {
+          "name": "7da1c93c-8841-469b-830e-a05460981bab.jpg",
+          "type": "image/jpeg",
+          "size": 70632,
+          "original_name": "640px-Montreux.jpg"
+        },
+        "loaded": 72632,
+        "total": 72632,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/7da1c93c-8841-469b-830e-a05460981bab.jpg",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/7da1c93c-8841-469b-830e-a05460981bab.jpg",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/7da1c93c-8841-469b-830e-a05460981bab.jpg"
+      },
+      "coordinates": [
+        46.430847235690024,
+        6.912288665771484
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "aF3AzdPRMQ2fPbM2D",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505737640262,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "10 Vevey",
+      "source": "https://commons.wikimedia.org/wiki/File:Vevey,_Switzerland.jpg",
+      "description": "Vevey est l’une des « perles de la Riviera suisse ». Cette ville sur le lac Léman se distingue par sa situation riveraine avec vue imprenable sur le panorama alpin, son climat particulièrement doux, les vignobles, les innombrables excursions dans la région et les splendides bateaux à roues à aubes sur le lac.",
+      "icon_awesome": "eye",
+      "icon_color": "green",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "dizoGF8ar2YHZkkGy",
+        "file": {
+          "name": "0a0471f6-8454-437a-9cab-3510f39472c9.jpg",
+          "type": "image/jpeg",
+          "size": 79575,
+          "original_name": "640px-Vevey,_Switzerland.jpg"
+        },
+        "loaded": 81585,
+        "total": 81585,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/0a0471f6-8454-437a-9cab-3510f39472c9.jpg",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/0a0471f6-8454-437a-9cab-3510f39472c9.jpg",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/0a0471f6-8454-437a-9cab-3510f39472c9.jpg"
+      },
+      "coordinates": [
+        46.45991516927857,
+        6.842036247253418
+      ],
+      "type": "marker",
+      "delete": 0
+    },
+    {
+      "_id": "yuHp382tA2QAPxsB8",
+      "user": "chkaiser",
+      "userId": "sPwyATMFm7Emg3Fuh",
+      "timestamp": 1505737608917,
+      "viz": "grand-tour-de-suisse-zermatt-lausanne",
+      "title": "11 Lausanne",
+      "source": "https://als.wikipedia.org/wiki/Datei:Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l%27Air.JPG",
+      "description": "Lausanne, la deuxième plus grande ville au bord du lac Léman, a le dynamisme d’une cité d’affaires tout en jouissant de la situation idéale d'une station de villégiature. La capitale du canton de Vaud est en outre une ville universitaire animée et une ville de congrès. Dans la capitale olympique, sport et culture s’inscrivent en lettres d’or.",
+      "icon_awesome": "star",
+      "icon_color": "green-light",
+      "icon_number": "",
+      "marker_color": "#ffffff",
+      "marker_shape": "circle",
+      "picture": {
+        "_id": "KprPnEmwMef9SAJqM",
+        "file": {
+          "name": "68298df6-4638-4cd3-bc4e-b55047bdb4c3.JPG",
+          "type": "image/jpeg",
+          "size": 74525,
+          "original_name": "640px-Cathédrale_de_Lausanne_depuis_le_Champ_de_l'Air.JPG"
+        },
+        "loaded": 76566,
+        "total": 76566,
+        "percent_uploaded": 100,
+        "uploader": "default",
+        "status": "complete",
+        "url": "http://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/68298df6-4638-4cd3-bc4e-b55047bdb4c3.JPG",
+        "secure_url": "https://s3-eu-central-1.amazonaws.com/wevis/chkaiser/grand-tour-de-suisse-zermatt-lausanne/68298df6-4638-4cd3-bc4e-b55047bdb4c3.JPG",
+        "relative_url": "/chkaiser/grand-tour-de-suisse-zermatt-lausanne/68298df6-4638-4cd3-bc4e-b55047bdb4c3.JPG"
+      },
+      "coordinates": [
+        46.518240755886346,
+        6.632995605468751
+      ],
+      "type": "marker",
+      "delete": 0
+    }
+  ]
+}

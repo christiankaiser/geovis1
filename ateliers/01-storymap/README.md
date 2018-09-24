@@ -17,8 +17,8 @@ Faites attention aux points suivants:
 - Ajoutez une petite photo d'illustration. Faites attention que la taille de la photo n'est pas trop importante (max. 1000 pixels de haut ou de large). N'oubliez pas d'indiquer la source de la photo si ce n'est pas la vôtre, ainsi que les droits d'utilisation.
 - Faites une courte description de l'endroit.
 
-Une fois que vous avez terminé votre storymap, rendez-la publique et envoyez le lien sur [Slack](https://geovis1.slack.com), dans le canal `storymaps`.
+Une fois que vous avez terminé votre storymap, rendez-la publique et envoyez le lien dans le Forum sur Moodle (réponse à la discussion "Storymap").
 
 Et par la suite, rendez-vous au questionnaire d'évaluation de l'application [wevis.ch](https://www.wevis.ch), à l'URL suivante: [http://lavaux.unil.ch/survey/index.php?r=survey/index&sid=549466&lang=fr](http://lavaux.unil.ch/survey/index.php?r=survey/index&sid=549466&lang=fr)
 
-Nous allons utiliser les résultats de ce premier atelier dans la suite du cours. Il est donc important de terminer l'atelier jusqu'au 26 septembre.
+Nous allons utiliser les résultats de ce premier atelier dans la suite du cours. Il est donc important de terminer l'atelier avant le cours de la deuxième semaine.
