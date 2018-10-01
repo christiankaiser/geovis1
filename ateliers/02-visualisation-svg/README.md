@@ -96,8 +96,9 @@ Lors de l'enregistrement en format SVG, faites attention d'intégrer les polices
 
 Pour la suite du cours vous aurez besoin d'un **éditeur de texte professionnel**, comme p.ex.
 
-- ***Atom***: https://atom.io, installé notamment sur les ordinateurs à Géopolis
-- ***Sublime Text***: http://www.sublimetext.com
+- ***Atom***: [https://atom.io](http://www.sublimetext.com), installé notamment sur les ordinateurs à Géopolis
+- ***Sublime Text***: [http://www.sublimetext.com](http://www.sublimetext.com)
+- ***Visual Studio Code*** de Microsoft, pas seulement pour Windows: [https://code.visualstudio.com](https://code.visualstudio.com/)
 - ***TextMate***: http://macromates.com, macOS seulement
 - ***Notepad++***: pour Windows seulement
 
