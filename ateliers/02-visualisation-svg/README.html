@@ -1,0 +1,283 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>README</title><style>body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    color: #3f475a;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    word-wrap: break-word;
+    background: #fefefe;
+    letter-spacing: 0.02em;
+}
+
+::selection {
+    background-color: rgba(104,112,145, 0.2)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #257FAD;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+h4,h5,h6 {
+    font-size: 1em;
+}
+
+img { max-width: 100%; }
+
+hr {
+    border-color: rgba(104,112,145, 0.24) !important;
+    border-style: dotted;
+}
+a {
+    color: #519548;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    color: #918B3B;
+}
+
+em, strong {
+    color: #D22D72;
+}
+
+blockquote {
+    background: #F7F7F7;
+    border-left: 2px solid #d33682;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    color: #000;
+    display: inline;
+}
+
+table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: keep-all;
+    border-collapse: collapse;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+
+table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+</style></head>
+<body><h1>Atelier 2: Visualisation SVG</h1>
+
+<p><em>par Lucas Martinez et Christian Kaiser</em></p>
+
+<hr>
+
+<p>L&#39;objectif de cet atelier est de:</p>
+
+<ul>
+<li>créer une visualisation statique avec un logiciel de graphisme (Illustrator ou Inkscape)</li>
+<li>insérer cette visualisation à l&#39;intérieur d&#39;un document HTML pour publication sur le Web</li>
+</ul>
+
+<p>Cet atelier est divisé en 2 parties:</p>
+
+<ol>
+<li><p>Dans un premier temps, nous regardons comment on peut <strong>créer une visualisation dans Illustrator</strong>, avec les possibilités suivantes:</p>
+
+<ol>
+<li>créer un graphique dans Excel, et l&#39;importer dans Illustrator pour finalisation</li>
+<li>créer un graphique directement dans Illustrator</li>
+<li>créer une carte avec un SIG (p.ex. QGIS ou ArcGIS), avec importation dans Illustrator pour finalisation</li>
+</ol></li>
+<li><p>Et dans un deuxième temps, vous regarderez <strong>comment intégrer un graphique Illustrator dans une page Web</strong>.</p></li>
+</ol>
+
+<hr>
+
+<h2>0. Le format SVG</h2>
+
+<p>Le SVG (<em>Scalable Vector Graphics</em>) est un format de fichier pour dessin vectoriel. Un dessin vectoriel est composé de lignes, formes géométriques (rectangles, cercles, etc.), du texte etc. L&#39;avantage d&#39;un dessin vectoriel est qu&#39;il est possible de l&#39;agrandir sans perte au niveau de la qualité d&#39;affichage, contrairement à une photo par exemple.</p>
+
+<p>D&#39;autres formats de dessin vectoriel sont par exemple le EPS, Postscript (utilisé par des imprimantes professionnels), ou encore le PDF qui en plus peut gérer plusieurs pages. Les dessins vectoriels ont la possibilité d&#39;intégrer des images aussi.</p>
+
+<p>Tandis que les formats EPS, Postscript et PDF proviennent tous de la maison Adobe, SVG est une alternative définie par le World Wide Web Consortium (W3C) comme standard ouvert. Un fichier SVG peut être affiché directement par un navigateur Web, et il est éditable soit avec un logiciel graphique spécialisé ou simplement avec un éditeur de texte. En effet, il s&#39;agit d&#39;un simple fichier texte avec du <em>code SVG</em> et extension <code>.svg</code>.</p>
+
+<p>Pour le moment, nous ne devons pas comprendre comment créer un fichier SVG avec un éditeur de texte. Nous allons recourir au logiciel de dessin vectoriel professionnel Adobe Illustrator. Plus tard, une fois que nous aurons connaissance du langage HTML, nous comprendrons mieux comment le fichier SVG est construit; en effet, les langages HTML et SVG sont très similaires au niveau de leur structure.</p>
+
+<hr>
+
+<h2>1. Créer une visualisation dans Illustrator</h2>
+
+<p>Le but de cette section est de présenter quelques possibilités comment on peut créer une visualisation dans Illustrator, avec ou sans autre logiciel. Dans tous les cas, Illustrator nous servira de point de départ pour générer un graphique SVG pour le Web.</p>
+
+<p>Il est important à noter que cet atelier n&#39;est bien évidemment pas exhaustif au niveau des possibilités pour créer des graphiques. En effet, il y a d&#39;autres logiciels spécialisés, comme des logiciels statistiques, qui peuvent être utilisés. La plupart de ces logiciels permettent d&#39;exporter leurs visualisations en format PDF ou EPS qui peuvent être lus directement par Illustrator.</p>
+
+<p>On doit également noter qu&#39;Adobe Illustrator n&#39;est pas le seul logiciel qui permet de faire ce travail. Dans certains cas, on peut aussi recourir à Inkscape (<a href="https://inkscape.org">https://inkscape.org</a>), une alternative open-source, mais qui n&#39;atteint pas (encore) les mêmes fonctionnalités.</p>
+
+<h3>1.1 Créer un graphique dans Excel et l&#39;importer dans Illustrator</h3>
+
+<p>Microsoft Excel permet de créer facilement des graphiques à partir de séries de données. Cela dit, un logiciel de graphisme tel qu&#39;Illustrator offre de plus grandes possibilités d&#39;édition. Commençons par créer un graphique simple sur Excel (p. ex. un histogramme) à partir d&#39;une série de données quelconque (ancien projet, données inventées). Il y a deux possibilités pour l&#39;importer dans Illustrator</p>
+
+<ul>
+<li>Sur les dernières versions de Excel, un simple copier-coller suffit:<br>
+Sur la zone de graphique dans Excel, faire un <strong>clic-droit &gt; copier</strong> puis <strong>clic-droit &gt; coller</strong> dans Illustrator</li>
+<li>Si cette méthode ne fonctionne pas, vous pouvez enregistrer le graphique en PDF:<br>
+Sur la zone de graphique dans Excel, faire un <strong>clic-droit &gt; enregistrer en tant qu&#39;image</strong> puis enregistrer le fichier au format <strong>PDF</strong>. Vous pourrez ensuite ouvrir le fichier directement avec Illustrator, ou importer votre graphique dans un nouveau fichier Adobe Illustrator en allant dans <strong>Fichier &gt; importer</strong></li>
+</ul>
+
+<p>On notera qu&#39;un graphique importé dans Illustrator comporte un certains nombre de masques qui empêchent l&#39;édition du graphique lui-même: il faut <em><q>nettoyer</q></em> le graphique en supprimant tous ces masques en les sélectionnant avec <strong>l&#39;outil de sélection directe</strong> (la flèche blanche) ou depuis la liste des <strong>calques</strong> située généralement dans un onglet à droite de l&#39;écran (on peut afficher la palette des calques depuis le menu <strong>Fenêtre</strong>. Une fois ces masques supprimés, il est possible d&#39;éditer le graphique à votre convenance.</p>
+
+<p><strong>Une note générale mais importante par rapport aux graphiques Excel</strong>: un bon nombre des graphiques et options proposés par Excel ne sont malheureusement pas très efficaces en termes de communication. Toutes les variantes de graphiques en 3D, ainsi que les camemberts et «graphiques en donut» ne devraient pas être utilisés. La même chose est valable pour les histogrammes à plusieurs rangées. <strong>Utilisez de préférence uniquement les graphiques les plus simples</strong>: histogrammes et barres simples, courbes simples et nuages de points.</p>
+
+<h3>1.2 Créer un graphique directement dans Illustrator</h3>
+
+<p>Il est également possible de créer certains graphiques directement dans Adobe Illustrator. Pour ce faire, il faut ouvrir le menu des outils de graphique (icône avec un petit histogramme dans la barre des outils, généralement sur la gauche de l&#39;écran) au moyen d&#39;un <strong>clic long</strong> puis sélectionner le type de graphique désiré. Pour commencer l&#39;édition graphique, il faut sélectionner sur le plan de travail la zone où l&#39;on souhaite positionner le graphique. Vous devriez voir apparaître un tableau comme celui dans la figure 1.</p>
+
+<p><img src="index-img/illustrator-tab.png" alt="Tableau de données pour graphique Illustrator"></p>
+
+<p>Il est possible de copier directement les données depuis Excel dans ce menu au moyen d&#39;un <strong>copier-coller</strong>. Une fois le tableau rempli, cliquer sur <strong>appliquer</strong> pour voir le graphique apparaître sur votre pan de travail.</p>
+
+<p>Il est ensuite possible d&#39;éditer le graphique comme vous le souhaitez. Certaines manipulations nécessitent de dissocier le graphique du tableau de données, et Illustrator affichera un message d&#39;alerte correspondant.</p>
+
+<h3>1.3 Importer une carte SIG dans Illustrator</h3>
+
+<p>Les <strong>SIG</strong> permettent de créer des cartes thématiques, mais la finalisation sur un logiciel de graphisme est généralement nécessaire pour obtenir un rendu optimal. Le but est ici d&#39;effectuer cette démarche sur une carte de la densité de population par canton en Suisse. Vous trouverez sur le site Web du cours un dossier <strong>data</strong> (dans <a href="data.zip">data.zip</a>) contenant une couche vectorielle des cantons suisses <code>DATA_KTNR.shp</code>. Effectuez une mise en classe selon l&#39;attribut de densité de population et préparez l&#39;exportation de la carte <strong>PDF</strong>. Pour ce faire vous avez deux possibilités selon le logiciel utilisé:</p>
+
+<ul>
+<li>Sur ArcGIS:<br>
+<strong>File &gt; Export Map</strong> puis sélectionner le format <strong>PDF</strong>   </li>
+<li>Sur QGIS:<br>
+Cliquez sur <strong>Nouveau composeur d&#39;impression</strong> dans la barre d&#39;outils. Dans la nouvelle fenêtre, cliquez sur <strong>Ajouter une nouvelle carte</strong> puis définissez la zone dans laquelle votre carte apparaîtra. Le résultat devrait ressembler à la figure 2.</li>
+</ul>
+
+<p><img src="index-img/qgis-map.png" alt="Exemple d&#39;une carte QGIS"></p>
+
+<p>Dans les deux cas, ajustez l&#39;emprise de la carte sur la zone d&#39;étude. N&#39;oubliez pas d&#39;ajouter une légende et une échelle par défaut pour retoucher ces éléments par la suite dans Illustrator. Vous pouvez ouvrir la carte sur Illustrator à l&#39;aide d&#39;un simple <strong>clic-droit &gt; Ouvrir avec</strong> puis en sélectionnant <strong>Adobe Illustrator</strong>. Une fois la carte sur Illustrator, il se peut que de nombreux masques soient situés sur votre carte. Supprimez-les comme en utilisant l&#39;outil de sélection directe (la flèche blanche) pour pouvoir éditer la carte comme vous voulez. Ajoutez ou modifiez les différents éléments comme le titre, la légende, l&#39;échelle etc. et mettez la carte au propre.</p>
+
+<hr>
+
+<h2>2. Intégrer un graphique Illustrator sur une page Web</h2>
+
+<h3>2.1 Exporter le graphique en format SVG</h3>
+
+<p>Une fois vos graphiques édités proprement dans Illustrator, ils peuvent être importés dans une page Web afin d&#39;être publiés. Le format <strong>SVG</strong> (pour <em>Scalable Vector Graphics</em>) est très répandu dans le cadre des pages Web. Pour exporter un graphique en <strong>SVG</strong> depuis Illustrator, il y a deux possibilités selon les différentes versions:</p>
+
+<ul>
+<li><strong>Fichier &gt; Enregistrer sous</strong> puis sélectionner format <strong>SVG</strong> sur les versions <em>Creative Cloud</em> installées sur les ordinateurs des salles informatiques.</li>
+<li><strong>Fichier &gt; Exporter</strong> puis sélectionner format <strong>SVG</strong> sur les versions antérieures.</li>
+</ul>
+
+<p><em>Remarque: n&#39;utilisez pas le format SVG compressé.</em></p>
+
+<p>Lors de l&#39;enregistrement en format SVG, faites attention d&#39;intégrer les polices de caractères utilisées, ainsi que les images. Par contre, écartez la possibilité d&#39;édition dans Illustrator puisque ça augmenterait considérablement la taille du fichier généré.</p>
+
+<h3>2.2 Intégrer le fichier SVG dans un page Web</h3>
+
+<p>Pour la suite du cours vous aurez besoin d&#39;un <strong>éditeur de texte professionnel</strong>, comme p.ex.</p>
+
+<ul>
+<li><strong><em>Atom</em></strong>: <a href="http://www.sublimetext.com">https://atom.io</a>, installé notamment sur les ordinateurs à Géopolis</li>
+<li><strong><em>Sublime Text</em></strong>: <a href="http://www.sublimetext.com">http://www.sublimetext.com</a></li>
+<li><strong><em>Visual Studio Code</em></strong> de Microsoft, pas seulement pour Windows: <a href="https://code.visualstudio.com/">https://code.visualstudio.com</a></li>
+<li><strong><em>TextMate</em></strong>: <a href="http://macromates.com">http://macromates.com</a>, macOS seulement</li>
+<li><strong><em>Notepad++</em></strong>: pour Windows seulement</li>
+</ul>
+
+<p>Des éditeurs de texte comme <strong><em>Notepad</em></strong> ou <strong><em>TextEdit</em></strong> ne conviennent pas pour un usage professionnel.</p>
+
+<p>Une fois le graphique exporté au format SVG, il s&#39;agit de l&#39;intégrer dans une page Web.</p>
+
+<p>Une page Web est un simple fichier texte avec extension ´.html´ ou ´.htm´ , écrit dans le langage HTML en suivant une structure bien définie. On parle alors d&#39;un fichier HTML. Le HTML n&#39;est pas un langage de programmation, mais un langage de description d&#39;un contenu; par contre on parlera toujours de <em>code HTML</em>. Le code HTML permet d&#39;intégrer du contenu externe dans une page Web, comme par exemple une image.</p>
+
+<p>Pour l&#39;intégration d&#39;un graphique SVG, il y deux manières d&#39;intégration dans le code <strong>HTML</strong>:</p>
+
+<p>a. lier le fichier SVG sous forme de référence externe dans le fichier HTML
+b. intégrer le code SVG directement à l&#39;intérieur dans le fichier HTML, sans fichier externe</p>
+
+<p>Le premier cas est illustré par le dossier <strong>exemple-svg-reference</strong> disponible sur le site Web du cours (<a href="exemple-svg-reference.zip"><em>exemple-svg-reference.zip</em></a>). Ce dossier contient deux fichiers:</p>
+
+<ul>
+<li>Un fichier <strong>SVG</strong> contenant des exemples d&#39;éléments graphiques </li>
+<li>Un fichier <strong>HTML</strong>, soit une page Web que vous pouvez ouvrir avec votre navigateur. Vous devriez voir apparaître un rectangle rouge, un cercle bleu ainsi qu&#39;un peu de texte.</li>
+</ul>
+
+<p>La figure 3 montre comment la page Web se présente dans le navigateur Web, avec la partie du graphique SVG mis en évidence.</p>
+
+<p><img src="index-img/exemple-svg.png" alt="Page HTML avec graphique SVG"></p>
+
+<p>Explorez les deux fichiers à l&#39;aide d&#39;un éditeur de texte:  </p>
+
+<ul>
+<li>Dans le fichier <strong>SVG</strong> vous pouvez observer des éléments tels que <code>&lt;circle&gt;</code> ou <code>&lt;rect&gt;</code>. Il s&#39;agit de <strong>balises</strong> définissant le type d&#39;objet contenu dans le fichier <strong>SVG</strong>. Des paramètres sont associés à ces balises et définissent les propriétés des éléments graphiques. Par exemple <code>r=&quot;70.5&quot;</code> représente le rayon du cercle, <code>width=&quot;180&quot; height=&quot;135&quot;</code> les dimensions du rectangle. Les symboles <code>/&gt;</code> situés en bout de ligne servent à clôturer ces balises</li>
+<li><p>Dans le fichier <strong>HTML</strong> vous pouvez voir apparaître la ligne suivante quelque part au milieu du fichier (sur une ligne):  </p>
+
+<pre><code>&lt;object width=&quot;500&quot; height=&quot;350&quot; 
+      data=&quot;graphique-exemple.svg&quot; 
+       type=&quot;image/svg+xml&quot;&gt;&lt;/object&gt;
+</code></pre>
+
+<p>Il s&#39;agit d&#39;une référence vers le fichier <strong>SVG</strong> permettant à la page Web de charger et d&#39;afficher ce dernier dans un navigateur.</p></li>
+</ul>
+
+<p>Pour l&#39;instant, vous ne devez pas comprendre le reste du code HTML. Les spécificités du code <strong>HTML</strong> seront présentées dans les ateliers suivants.</p>
+
+<p>La deuxième méthode d&#39;intégration est illustrée par le dossier <strong>exemple-svg-integration</strong> également disponible sur le site Web du cours (<a href="exemple-svg-integration.zip"><em>exemple-svg-integration.zip</em></a>). Dans ce cas, nous n&#39;avons plus de fichier SVG, mais seulement un fichier HTML. En effet, vous l&#39;avez peut-être constaté, les langages HTML et SVG se ressemblent fortement au niveau de la structure (les deux sont des langages avec des balises du style <code>&lt;object ...&gt;...&lt;/object&gt;</code> ou encore <code>&lt;text ...&gt;...&lt;/text&gt;</code>; on y réfère sous le terme de <em>markup language</em>).</p>
+
+<p>Si vous regardez le fichier HTML avec le navigateur Web, vous ne devriez pas voir de différence. Par contre, si vous ouvrez le fichier avec votre éditeur de texte, vous allez apercevoir la balise <code>&lt;svg ...&gt;...&lt;/svg&gt;</code> à l&#39;intérieur du code HTML. Cette balise <code>svg</code> est un peu plus simple qu&#39;à l&#39;origine dans le fichier SVG, mais tout ce qui est à l&#39;intérieur de cette balise est identique au fichier SVG. Nous avons pu mélanger du code HTML et du code SVG dans le même fichier HTML!</p>
+
+<p>Essayez maintenant de <strong>remplacer</strong> ces deux exemples par <strong>votre propre graphique</strong> ou <strong>votre propre carte</strong>, en faisant une copie du fichier HTML et en modifiant le code nécessaire. Vérifiez dans votre navigateur Web si le tout s&#39;affiche correctement.</p>
+
+<p>Vous allez vous poser la question laquelle des deux méthodes d&#39;intégration est meilleure. En gros, il n&#39;y a pas de méthode qui est meilleure dans tous les cas. Par contre:</p>
+
+<ul>
+<li>La méthode de référence permet de garder votre fichier HTML simple et du coup facile à manipuler. Ceci est un avantage surtout dans le cas de graphiques SVG complexes où le code SVG peut devenir complexe et volumineux.</li>
+<li>La méthode de référence permet également d&#39;ouvrir le fichier SVG sans problème dans Illustrator même après intégration dans le fichier HTML. Les éventuels changements seront pris en compte automatiquement. Une édition du contenu SVG inclus dans un fichier HTML n&#39;est pas possible directement.</li>
+<li>Par contre, si on veut interagir avec le contenu SVG, p.ex. depuis un menu déroulant dans le HTML, la méthode avec graphique intégré dans le code HTML est nettement plus simple à mettre en oeuvre. Nous allons apprendre plus tard comment un peut interagir avec le contenu d&#39;un fichier HTML grâce au langage de programmation Javascript.</li>
+</ul>
+
+<p><em>Astuce</em>: si vous avez chargé votre fichier dans le navigateur Web et vous avez modifié le code HTML par la suite (p.ex. vous avez modifié le nom du fichier SVG), il suffit de recharger la page Web dans le navigateur (généralement Ctrl-R, resp. cmd-R sur macOS).</p>
+</body>
+</html>
