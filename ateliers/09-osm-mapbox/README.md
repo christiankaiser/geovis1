@@ -1,4 +1,4 @@
-##### Atelier de géovisualisation 9
+##### Atelier de géovisualisation
 
 # Edition de fond de carte
 
@@ -165,12 +165,22 @@ Vous voyez s'afficher votre nouvelle couche sur votre carte. Cliquez sur **creat
 
 ##### 2.4.1 Sauvegarde du fond de carte
 
-Une fois l'édition de notre fond de carte terminée, nous allons la sauvegarder pour l'incorporer à notre carte interactive. Il faut commencer par cliquer sur **Publish** en haut de la barre latérale puis à nouveau sur **Publish** dans la fenêtre suivante (qui permet de comparer la couche avant l'édition et après). A ce moment, choisissez **Preview, develop and use**. Une nouvelle page s'ouvre: pour choisir d'afficher la carte avec **Leaflet**, cherchez le second menu **Develop with this style** puis sélectionnez **Leaflet**. La partie surlignée en jaune sur la *Figure 2.5* correspond au lien qu'il vous faudra copier dans votre code *javascript* pour afficher votre fond de carte nouvellement créé.
+Une fois l'édition de notre fond de carte terminée, nous allons l'incorporer à notre carte interactive. Pour cela, il faut cliquer sur «Publish» en haut à droite, puis sortir de l'interface d'édition des cartes et revenir sur la liste de vos styles de cartes personnels.
 
-![Alt Text](AT6.9_Mapbox5.png "Capture Mapbox Studio 2")
-*Figure 2.5: Fenêtres liées à l'ajout d'une couche vecteur sur le fond de carte*
+Cliquez alors sur le bouton **«Share & use»** à droite du nom de la style. Sélectionnez en bas «Public» pour rendre la carte publique, et copiez l'URL («Share URL»). Il faut maintenant transformer l'URL obtenu pour pouvoir l'utiliser avec Leaflet, de la façon illustrée ci-dessous:
 
-Cliquez sur le bouton situé en haut à droite du lien en question pour le copier dans le presse-papier, puis retournez sur votre éditeur de texte et ouvrez votre *script.js* du dernier atelier.
+```
+https://api.mapbox.com/styles/v1/<nom-utilisateur>/<code-du-style>.html?fresh=true&title=true&access_token=<cle-acces>#9.0/40.720000/-73.970000/0
+```
+
+où `<nom-utilisateur>`, `<code-du-style>` et `<cle-acces>` sont uniques et doivent être identifiés manuellement dans votre URL,
+puis transformez en
+
+```
+https://api.mapbox.com/styles/v1/<nom-utilisateur>/<code-du-style>/tiles/256/{z}/{x}/{y}?access_token=<cle-acces>
+```
+
+Copiez cette URL pour l'utiliser dans Leaflet. Pour cela, retournez sur votre éditeur de texte et ouvrez votre *script.js* du dernier atelier.
 
 ##### 2.4.2 Incorporation du fond de carte à notre carte interactive
 
